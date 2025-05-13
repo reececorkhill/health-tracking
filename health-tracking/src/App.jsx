@@ -1,16 +1,15 @@
 import { useState } from 'react'
+import Welcome from './components/Welcome'
+import GetStarted from './components/GetStarted'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <h1>Health Tracking App</h1>
-      </div>
+    <Welcome />
+    <GetStarted />
     </>
   )
 }
